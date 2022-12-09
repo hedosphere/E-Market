@@ -1,0 +1,49 @@
+.bgred {
+  background: red;
+}
+.bggray {
+  background: rgba(128, 128, 128, 0.404) !important;
+  color: azure !important;
+}
+
+.bgyellow {
+  background: rgba(255, 255, 0, 0.233);
+}
+
+.flowRight {
+  float: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.addtocart {
+  border-bottom: 1px solid yellow;
+}
+.addtocart:hover {
+  color: blue;
+  border-bottom: 1px dashed blue;
+}
+
+#link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.myarrow {
+  text-align: center;
+  /* background: rgb(175, 28, 28); */
+  clip-path: polygon(
+    0% 10%,
+    80% 10%,
+    80% 0%,
+    100% 50%,
+    80% 100%,
+    80% 90%,
+    0 90%,
+    10% 50%
+  );
+
+  /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
+}
